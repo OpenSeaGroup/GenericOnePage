@@ -4,25 +4,17 @@
         "controller": "welcome",
         "navigation": false
     }, {
-        "content": "what",
+        "content": "vision",
         "controller": "default",
-        "navigation": "What?"
+        "navigation": "Vision"
     }, {
-        "content": "setup",
+        "content": "overview",
         "controller": "default",
-        "navigation": "Setup"
+        "navigation": "Overview"
     }, {
-        "content": "customize",
+        "content": "join",
         "controller": "default",
-        "navigation": "Customize"
-    }, {
-        "content": "go",
-        "controller": "default",
-        "navigation": "Go!"
-    }, {
-        "content": "bla",
-        "controller": "default",
-        "navigation": "Bla"
+        "navigation": "Join"
     }, {
         "controller": "footer",
         "navigation": false

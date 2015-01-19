@@ -1,7 +1,7 @@
 {
     "minSplashTime": 1000,
     "effectsSpeed": 500,
-    "contentPath": "content/",
-    "ctrlPath": "app/ctrl/",
-    "dataPath": "data/"
+    "contentPath": "/content/",
+    "ctrlPath": "/app/ctrl/",
+    "dataPath": "/data/"
 }

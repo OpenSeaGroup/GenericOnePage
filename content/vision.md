@@ -1,0 +1,3 @@
+# Our Vision
+
+As technology’s role in the modern world increases, so does the number of different opportunities. Our team of experienced engineers are here to guide talented entrepreneurs in the earliest stages of new software ideas. Involvement so early on means bigger returns, but it also means bigger risks. We’re confident in the combined knowledge of our veteran engineers to minimize these risks as much as possible. Together, we will foster a cooperative community that works together to create validated high-quality technologies with potential to grow into successful businesses that will make a mark on the world.
