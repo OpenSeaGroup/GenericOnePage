@@ -10,5 +10,5 @@ The application is ready to be served directly from Github pages. The content
 can be edited as Markdown files directly from Github's UI. The layout is
 customizable as well.
 
-It's fully responsive, mobile friendly and easily extendable with additional
+It's fully responsive, mobile friendly and easily extensible with additional
 functionalities.
