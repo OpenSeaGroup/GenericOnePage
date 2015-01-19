@@ -9,25 +9,13 @@
         "controller": "welcome",
         "navigation": false
     }, {
-        "content": "section_1",
+        "content": "what",
         "controller": "default",
-        "navigation": "Section 1"
+        "navigation": "What"
     }, {
-        "content": "section_2",
+        "content": "setup",
         "controller": "default",
-        "navigation": "Section 2"
-    }, {
-        "content": "section_3",
-        "controller": "default",
-        "navigation": "Section 3"
-    }, {
-        "content": "section_3",
-        "controller": "default",
-        "navigation": "Section 4"
-    }, {
-        "content": "section_3",
-        "controller": "default",
-        "navigation": "Section 5"
+        "navigation": "Setup"
     }, {
         "controller": "footer",
         "navigation": false
