@@ -1,0 +1,13 @@
+{
+    "title": "Generic One Page",
+    "logo": "/assets/logo.png",
+    "email": "your@email.com",
+    "slogan": "A generic one page application.",
+    "links": {
+        "twitter": "user",
+        "github": "user",
+        "linkedin": "user",
+        "facebook": "user",
+        "stackoverflow": "user"
+    }
+}
