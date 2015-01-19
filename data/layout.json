@@ -6,7 +6,7 @@
     }, {
         "content": "what",
         "controller": "default",
-        "navigation": "What"
+        "navigation": "What?"
     }, {
         "content": "setup",
         "controller": "default",
@@ -16,13 +16,9 @@
         "controller": "default",
         "navigation": "Customize"
     }, {
-        "content": "bla",
+        "content": "go",
         "controller": "default",
-        "navigation": "Bla"
-    }, {
-        "content": "bla",
-        "controller": "default",
-        "navigation": "Bla"
+        "navigation": "Go!"
     }, {
         "content": "bla",
         "controller": "default",
