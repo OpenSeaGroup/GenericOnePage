@@ -1,0 +1,34 @@
+{
+    "sections": [{
+        "content": "one_liner",
+        "controller": "welcome",
+        "navigation": false
+    }, {
+        "content": "what",
+        "controller": "default",
+        "navigation": "What"
+    }, {
+        "content": "setup",
+        "controller": "default",
+        "navigation": "Setup"
+    }, {
+        "content": "customize",
+        "controller": "default",
+        "navigation": "Customize"
+    }, {
+        "content": "bla",
+        "controller": "default",
+        "navigation": "Bla"
+    }, {
+        "content": "bla",
+        "controller": "default",
+        "navigation": "Bla"
+    }, {
+        "content": "bla",
+        "controller": "default",
+        "navigation": "Bla"
+    }, {
+        "controller": "footer",
+        "navigation": false
+    }]
+}

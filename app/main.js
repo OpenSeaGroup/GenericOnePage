@@ -26,13 +26,14 @@ require.config({
 require([
     "jquery",
     "when/when",
-    "json!../app/config.json",
+    "json!../config.json",
     "require"
 ], function(jQuery, when, config, localRequire){
     // build splash screen:
     var splashCtrlPath = config.ctrlPath + "splash/" + "main.js",
-        metadataPath = config.dataPath + "meta.json";
-    localRequire([splashCtrlPath, "json!" + metadataPath], function(Splash, meta){
+        metadataPath = config.dataPath + "meta.json",
+        layoutPath = config.dataPath + "layout.json";
+    localRequire([splashCtrlPath, "json!" + metadataPath, "json!" + layoutPath], function(Splash, meta, layout){
         Splash(meta.logo).then(function($splash){
             jQuery(function ($) {
                 var $root = $('.root'),
@@ -46,8 +47,8 @@ require([
                                 $sectionsContainer.offset().top;
                         $sectionsContainer.animate({scrollTop: scrollTo}, config.effectsSpeed);
                     },
-                    pSections = config.sections.map(function(section, i){
-                        var nextId = i < config.sections.length - 1 ? i + 1 : false,
+                    pSections = layout.sections.map(function(section, i){
+                        var nextId = i < layout.sections.length - 1 ? i + 1 : false,
                             scrollNext = nextId ? scrollToSection.bind(null, nextId) : function(){};
                         return when.promise(function(resolve, reject){
                             var ctrlPath = config.ctrlPath + section.controller + '/main.js',
@@ -62,7 +63,7 @@ require([
                     pNav = when.promise(function(resolve, reject){
                         var ctrlPath = config.ctrlPath + 'nav/main.js';
                         localRequire([ctrlPath], function(NavController){
-                            NavController(config.sections, meta.logo, meta.title, scrollToSection).then(resolve, reject);
+                            NavController(layout.sections, meta.logo, meta.title, scrollToSection).then(resolve, reject);
                         }, reject);
                     });
                 $splash.hide();

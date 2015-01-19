@@ -7,4 +7,8 @@ Use it if you need a simple landing page. It saves you the hassle of building
 HTML, embedding content in it and publishing.
 
 The application is ready to be served directly from Github pages. The content
-can be edited as Markdown files. The layout is customizable as well.
+can be edited as Markdown files directly from Github's UI. The layout is
+customizable as well.
+
+It's fully responsive, mobile friendly and easily extendable with additional
+functionalities.
