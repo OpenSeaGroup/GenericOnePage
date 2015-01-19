@@ -1,24 +1,25 @@
 require.config({
     waitSeconds: 0,
-    baseUrl: "bower_components",
+    baseUrl: "./",
     packages: [{
         name: "jquery",
-        location: "jquery/dist",
+        location: "bower_components/jquery/dist",
         main: "jquery"
     }],
     map: {
         '*': {
-            text: 'requirejs-plugins/lib/text',
-            image: 'requirejs-plugins/src/image',
-            json: 'requirejs-plugins/src/json',
-            async: 'requirejs-plugins/src/async',
-            font: 'requirejs-plugins/src/font',
-            goog: 'requirejs-plugins/src/goog',
-            noext: 'requirejs-plugins/src/noext',
-            mdown: 'requirejs-plugins/src/mdown',
-            propertyParser: 'requirejs-plugins/src/propertyParser',
-            markdownConverter : 'requirejs-plugins/lib/Markdown.Converter',
-            less: 'require-less/less'
+            text: 'bower_components/requirejs-plugins/lib/text',
+            image: 'bower_components/requirejs-plugins/src/image',
+            json: 'bower_components/requirejs-plugins/src/json',
+            async: 'bower_components/requirejs-plugins/src/async',
+            font: 'bower_components/requirejs-plugins/src/font',
+            goog: 'bower_components/requirejs-plugins/src/goog',
+            noext: 'bower_components/requirejs-plugins/src/noext',
+            mdown: 'bower_components/requirejs-plugins/src/mdown',
+            propertyParser: 'bower_components/requirejs-plugins/src/propertyParser',
+            markdownConverter : 'bower_components/requirejs-plugins/lib/Markdown.Converter',
+            less: 'bower_components/require-less/less',
+            when: 'bower_components/when'
         }
     }
 });
@@ -26,7 +27,7 @@ require.config({
 require([
     "jquery",
     "when/when",
-    "json!../config.json",
+    "json!config.json",
     "require"
 ], function(jQuery, when, config, localRequire){
     // build splash screen:
