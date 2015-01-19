@@ -1,6 +1,6 @@
 {
     "title": "Generic One Page",
-    "logo": "/assets/logo.png",
+    "logo": "assets/logo.png",
     "email": "your@email.com",
     "slogan": "A generic one page application.",
     "links": {
