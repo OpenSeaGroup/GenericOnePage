@@ -1,6 +1,6 @@
 # What?
 
-This is a template application. Completelly useless, other than that it's fully
+This is a template application. Completely useless, other than that it's fully
 functional and ready to be forked and customized with some custom content.
 
 Use it if you need a simple landing page. It saves you the hassle of building
