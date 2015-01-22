@@ -16,9 +16,10 @@
         "controller": "default",
         "navigation": "Join"
     }, {
-        "content": "about us",
+        "content": "about",
         "controller": "default",
         "navigation": "About Us"
+    }    
     }, {
         "controller": "footer",
         "navigation": false
