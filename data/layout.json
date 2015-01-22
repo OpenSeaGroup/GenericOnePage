@@ -19,7 +19,6 @@
         "content": "about us",
         "controller": "default",
         "navigation": "About Us"
-    }    
     }, {
         "controller": "footer",
         "navigation": false
